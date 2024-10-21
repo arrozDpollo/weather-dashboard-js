@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.weather-display, .forecast-container {
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+input {
+    padding: 10px;
+}
+
+#forecast {
+    display: flex;
+    justify-content: space-around;
+}
+
+.forecast-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+#history {
+    list-style: none;
+    padding: 0;
+}
+
+#history li {
+    cursor: pointer;
+}
